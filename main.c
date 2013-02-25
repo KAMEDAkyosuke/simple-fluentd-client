@@ -1,11 +1,12 @@
 #include <stdio.h>
 
+#include <time.h>
 #include <msgpack.h>
 #include "simple-fluentd-client.h"
 
 int main(int argc, char** argv)
 {
-    flented_client_ctx_t* ctx = fluentd_client_new();
+    fluentd_client_ctx_t* ctx = fluentd_client_new();
     ctx->address = "127.0.0.1";
     ctx->port = 24224;
     
