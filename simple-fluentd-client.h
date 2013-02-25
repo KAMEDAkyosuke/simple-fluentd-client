@@ -1,4 +1,4 @@
-e#ifndef SIMPLE_FLUENTD_CLIENT_H
+#ifndef SIMPLE_FLUENTD_CLIENT_H
 #define SIMPLE_FLUENTD_CLIENT_H
 
 #include <msgpack.h>
